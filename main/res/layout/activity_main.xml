@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Unit Converter"
+        android:textSize="30sp"
+        android:textColor="#673AB7"/>
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/ic_unit"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/editcm"
+
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="Enter number in cm"
+            android:padding="10dp"
+            android:layout_marginLeft="10dp"/>
+        <Button
+            android:id="@+id/converter"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Meter"
+            android:backgroundTint="#673AB7"
+            android:layout_marginLeft="50dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/editm"
+
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="Enter number in m"
+            android:padding="10dp"
+            android:layout_marginLeft="10dp"/>
+        <Button
+            android:id="@+id/converter1"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="K-metre"
+            android:backgroundTint="#673AB7"
+            android:layout_marginLeft="50dp"/>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+
+
+
+
+
+
+
+</LinearLayout>
